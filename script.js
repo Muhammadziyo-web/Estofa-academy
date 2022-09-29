@@ -420,7 +420,10 @@ if (video.paused) {
     console.log(' stopped');
     video.setAttribute("loop",'loop');
 } else {
-    console.log("video is playing");
+    console.log("video is playin");
+    video.removeAttribute("loop");
+    console.log(' stopped');
+    video.setAttribute("loop",'loop');
     //DO SOMETHING...
 }
 
