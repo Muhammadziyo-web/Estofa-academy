@@ -414,17 +414,17 @@ $('.list-btn').addEventListener('click',()=>{
   }
 })
 
-var video = document.getElementsByTagName("video");
-if (video.paused) {
-    video.removeAttribute("loop");
-    console.log(' stopped');
-    video.setAttribute("loop",'loop');
-} else {
-    console.log("video is playin");
-    video.removeAttribute("loop");
-    console.log(' stopped');
-    video.setAttribute("loop",'loop');
-    //DO SOMETHING...
-}
+// var video = document.getElementsByTagName("video");
+// if (video.paused) {
+//     video.removeAttribute("loop");
+//     console.log(' stopped');
+//     video.setAttribute("loop",'loop');
+// } else {
+//     console.log("video is playin");
+//     video.removeAttribute("loop");
+//     console.log(' stopped');
+//     video.setAttribute("loop",'loop');
+//     //DO SOMETHING...
+// }
 
   
